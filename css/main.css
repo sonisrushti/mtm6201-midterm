@@ -71,8 +71,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     clear: both;
-    overflow: hidden;
-    position: fixed;
+   
 }
 
 nav ul {
@@ -97,42 +96,74 @@ nav ul li a:hover {
 }
 
 .other_pg {
-
+  overflow: hidden;
+  position: fixed;
     height: 50px;
     margin-top: -7px;
     background-color: rgb(0, 0, 0);
 }
 
 .contact_form {
-    border-left: 2px solid black;
-    border-bottom: 1px solid darkgray;
-    border-right: 2px solid black;
-    border-top: 1px solid darkgray;
-    margin: 10px;
-    padding: 12px;
-    padding-top: 25px;
-    width: fit-content;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 5px;
 
-
-.fields {
-    width:auto;
-    height: 20px;
-    margin-bottom: 18px;
-    border: 0;
-}
-/*
-#msg {
-    width: 100%;
-    border: 1;
-    resize: none;
-
-}
-*/
-.button {
-
-    border: 1px solid;
-}
-button:hover {
-    background-color: #ffd902;
   }
+
+  
+  .cnt {
+    width: 400px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;padding: 25px 50px;
+    
+  }
+  
+  .cnt h1 {
+    text-align: center;
+  }
+  
+  .fields {
+    margin-bottom: 20px;
+  }
+  
+  .fields label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .inp-fields {
+    width: 100%;
+    padding: 8px;border-radius: 8px;
+    border-style: none;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    resize: vertical;
+  }
+  
+  .button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+    padding: 5px 20px;
+  }
+  
+
+

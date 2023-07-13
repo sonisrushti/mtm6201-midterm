@@ -27,43 +27,36 @@
         <main>
 
             <body>
-
-               
-                <div class="contact_form">
-
-                    <form action="thanks.html" method="get">
-    
-                        <div class="fields">
-                            <label for="fullname">Your Name</label>
-                            <br>
-                            <input type="text" id="fullname" name="fullname" required>
-                        </div>
-    
-                        <div class="fields">
-                            <label for="youremail">Your Email</label>
-                            <br>
-                            <input type="email" id="youremail" name="youremail" value="" required>
-                        </div>
-    
-                        <div>
-    
-                            <label for="msg">Your Message</label>
-                            <br>
-                            <textarea name="msg" id="msg" rows="5" cols="80"></textarea>
-                            <p>Would you like to visit the Starfish?</p>
-                            <label for="yes">Yes</label>
-                            <input type="radio" id="yes" name="past">
-                            <label for="no">No</label>
-                            <input type="radio" name="past" id="no">
-                            <label for="no">May be</label>
-                            <input type="radio" name="past" id="maybe">
-                        </div>
-                        <div>
-                            <button class="button">Send</button>
-                        </div>
-    
-                    </div>
-
+                <h2 class="cnt_h2">
+                    Let's start together! 
+                </h2>
+                <section class="contact_form" id="cnt1">
+                    <div class="cnt">
+                        <h1>Contact Us</h1>
+            
+            
+            
+                        <form action="thanks.html" method="get">
+                            <h2> Send us a message</h2>
+                            <div class="fields">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" id="fullname" name="fullname" required class="inp-fields">
+                            </div>
+            
+                            <div class="fields">
+                                <label for="youremail">Email</label>
+                                <input type="email" id="youremail" name="youremail" value="" required class="inp-fields">
+                            </div>
+            
+            
+                            <div class="fields">
+                                <label for="msg">Message</label>
+                                <textarea name="msg" id="msg" rows="5" cols="80" class="inp-fields"></textarea>
+                            </div>
+            
+                            <button type="submit" class="b_submit"><span class="submit">Send</span></button>
+                        </form>
+</div></section>
 
 
             </body>
